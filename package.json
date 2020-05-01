@@ -1,12 +1,12 @@
 {
   "name": "homebridge-kiot",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Homebridge-Kiot",
-  "homepage": "https://github.com/sinclair81/homebridge-tasmota-ts",
+  "homepage": "https://github.com/kiot-innovations/Homebridge-Kiot",
   "author": {
     "name": "Kiot Innovations",
     "email": "hello@kiot.io",
-    "url": "https://github.com/sinclair81"
+    "url": "https://github.com/kiot-innovations"
   },
   "main": "dist/index.js",
   "files": [
@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "form-data": "^3.0.0",
-    "hap-nodejs": "^0.5.9",
     "node-fetch": "^2.6.0"
   }
 }

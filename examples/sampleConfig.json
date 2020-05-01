@@ -1,0 +1,78 @@
+{
+    "bridge": {
+        "name": "Homebridge 3CA0",
+        "username": "0E:7C:6D:BC:3C:A0",
+        "port": 51499,
+        "pin": "935-06-067"
+    },
+    "accessories": [
+        {
+            "accessory": "Kiot-Home",
+            "name": "Switch 1",
+            "device": "Hall Switch",
+            "ip": "192.168.1.9",
+            "apiKey": "Hello",
+            "updateInterval": 30000,
+            "debugMsgLog": 1,
+            "type": "switch",
+            "switchSeq": 1,
+            "deviceId": "888888888888"
+        },
+        {
+            "accessory": "Kiot-Home",
+            "name": "Switch 2",
+            "device": "Hall Switch",
+            "ip": "192.168.1.9",
+            "apiKey": "Hello",
+            "updateInterval": 30000,
+            "debugMsgLog": 1,
+            "type": "switch",
+            "switchSeq": 2,
+            "deviceId": "888888888888"
+        },
+        {
+            "accessory": "Kiot-Home",
+            "name": "Switch 3",
+            "device": "Hall Switch",
+            "ip": "192.168.1.9",
+            "apiKey": "Hello",
+            "updateInterval": 30000,
+            "debugMsgLog": 1,
+            "type": "switch",
+            "switchSeq": 3,
+            "deviceId": "888888888888"
+        },
+        {
+            "accessory": "Kiot-Home",
+            "name": "Switch 4",
+            "device": "Hall Switch",
+            "ip": "192.168.1.9",
+            "apiKey": "Hello",
+            "updateInterval": 30000,
+            "debugMsgLog": 1,
+            "type": "switch",
+            "switchSeq": 4,
+            "deviceId": "888888888888"
+        },
+        {
+            "accessory": "Kiot-Home",
+            "name": "Switch 5",
+            "device": "Hall Switch",
+            "ip": "192.168.1.9",
+            "apiKey": "Hello",
+            "updateInterval": 30000,
+            "debugMsgLog": 1,
+            "type": "switch",
+            "switchSeq": 5,
+            "deviceId": "888888888888"
+        }
+    ],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config",
+            "sessionTimeout": 28800
+        }
+    ]
+}
